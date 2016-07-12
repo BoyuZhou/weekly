@@ -1,0 +1,29 @@
+
+<div class="row" style="margin: 5px 0">
+    <div class="panel panel-info">
+        <div class="panel-heading">
+            <div>
+                <span  style="display: inline-block;cursor: pointer"><span class="fa fa-user"></span>{{ data.name }}</span>
+                <span ng-show="type" style="display: inline-block;position: absolute;right: 30px;"> <button class="btn btn-default btn-info btn-sm" ng-click="vm.changeTeamWeekDaily(data)">修改</button></span>
+                </div>
+            <div>
+                <span  style="display: inline-block;"><span class="fa fa-tasks"></span>{{ data.tasks.length }}个任务变动</span>
+                <span  style="display: inline-block;"><span class="fa fa-file-text-o"></span>{{ data.descriptionNum }}个描述</span>
+            </div>
+
+        </div>
+        <div class="panel-body">
+            <div>
+                <div ng-repeat="task in data.tasks track by $index" style="border-bottom: 1px dashed #bce8f1">
+                    <span><span class="fa fa-book"></span>任务：{{ task.name }}</span>
+                    <span><span class="fa fa-flask"></span>进度：{{ task.schedule }}</span>
+                    <span><span class="fa fa-clock-o"></span>工时：{{ task.manHour }}</span>
+                </div>
+                <div>
+                    <span><span class="fa fa-pencil"></span>描述：{{ data.descriptions }}</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>

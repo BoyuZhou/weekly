@@ -1,0 +1,21 @@
+<div class="row" task-draggable>
+    <div class="col-sm-12 draggable">
+        <div class="panel panel-info">
+            <div class="panel-heading">
+                <div class="row">
+                    <div class="col-xs-12 text-left " >
+                        <a data-toggle="modal" data-target="#myModal">    任务：<span>{{ data.name }}</span></a>
+                    </div>
+                    <div class=" col-xs-12 text-left"><small><i class="fa fa-clock-o text-muted  fa-fw"></i></small><span class="text-muted font-size-12 padding-left-5">{{ data.date }}</span></div>
+                    <div class="col-xs-12 text-left"> <i class="fa fa-flask text-muted"></i><span id="percent" class="text-muted font-size-12 text-info"><span ng-show="data.state == 'beforeBegin'">未开始</span><span ng-show="data.state == 'complete'">已完成</span><span ng-show="data.state != 'beforeBegin' && data.state != 'complete'">{{ data.state }}</span></span></div>
+                </div>
+            </div>
+            <div class="panel-body">
+                <div class="text-left text-muted font-size-12">
+                    <p><span>描述：</span><span>{{ data.description }}</span></p>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+</div>

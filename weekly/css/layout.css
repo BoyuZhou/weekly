@@ -1,0 +1,134 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;padding: 0;border: 0;outline: 0;font-weight: inherit;font-style: inherit;font-size: 100%;font-family: inherit;vertical-align: baseline;}
+
+.ztree li span.button.add {margin-left:2px; margin-right: -1px; background-position:-144px 0; vertical-align:top; *vertical-align:middle}
+
+body{
+    -webkit-user-select: none;
+}
+ul,li{
+    list-style: none;
+}
+.pointer{
+    cursor: pointer;
+}
+.xcj-tree{
+    margin-left: 20px;
+}
+.xcj-tree ul{
+    margin: 5px 20px;
+}
+.xcj-tree ul li{
+    margin: 5px 5px;
+    cursor: pointer;
+}
+
+.xcj-tree .icon{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url("../images/1_close.png")no-repeat;
+}
+
+.xcj-tree .forbidden{
+    background: url("../images/1_open.png")no-repeat;
+}
+.xcj-tree .control{
+    display: none;
+    margin-left: 15px;
+}
+.xcj-tree .control span{
+    display: inline-block;
+    margin: auto 2px;
+}
+.xcj-tree div{
+    border: 1px solid #fff;
+}
+.state div{
+    display: inline-block;
+}
+.promp{
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    max-width: 500px;
+    margin-left:-250px;
+    border-radius: 5px;
+    z-index: 6;
+}
+.schedule{
+    margin-top: 23px;
+    width: 100%;
+    height: 363px;
+
+}
+.schedule li {
+    width: 100%;
+    height: 33px;
+    border: 1px solid gainsboro;
+    text-align: center;
+    line-height: 33px;
+}
+.data-tag{
+    margin-top: 10px;
+}
+.data-tag li a{
+    padding: 5px 5px ;
+}
+
+.float-left li{
+    float: left;
+    margin-left: 4px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+.my-tab{
+    border-bottom: none;
+}
+.my-tab li a{
+    border: 1px solid #ddd;
+    background: #eee;
+    text-align: center;
+}
+.my-tab .my-tab-week{
+    width: 120px;
+}
+.my-tab .my-tab-day{
+    width: 100px;
+}
+
+
+
+
+.modified-table div{
+    display: inline-block;
+}
+.modified-table .intable-form{
+    width: 30px;
+}
+
+.padding-top-20{
+    padding-top:20px;
+}
+.padding-bottom-20{
+    padding-bottom:20px;
+}
+.padding-left-5{
+    padding-left:5px;
+}
+.background-color-blue{
+      background-color:#bce8f1;
+}
+.font-size-12{
+    font-size:.8rem;
+}
+
+
+.personal-date{
+    position: absolute;
+    top: -7px;
+    right: 80px;
+    width: 43px;
+    height: 43px;
+}
